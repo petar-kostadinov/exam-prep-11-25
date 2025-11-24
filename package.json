@@ -1,0 +1,21 @@
+{
+  "name": "exam-prep-11-25",
+  "version": "1.0.0",
+  "description": "1. Initialize Project\r   - [ ] Init npm project `npm init --yes`\r   - [ ] Add Start File\r   - [ ] Change Module System\r   - [ ] Add Dev Script\r   - [ ] Config Debugging",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petar-kostadinov/exam-prep-11-25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/petar-kostadinov/exam-prep-11-25/issues"
+  },
+  "homepage": "https://github.com/petar-kostadinov/exam-prep-11-25#readme"
+}
