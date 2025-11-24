@@ -1,7 +1,7 @@
 {
   "name": "exam-prep-11-25",
   "version": "1.0.0",
-  "description": "1. Initialize Project\r   - [ ] Init npm project `npm init --yes`\r   - [ ] Add Start File\r   - [ ] Change Module System\r   - [ ] Add Dev Script\r   - [ ] Config Debugging",
+  "description": "Exam Skeleton",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/index.js"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/petar-kostadinov/exam-prep-11-25/issues"
   },
-  "homepage": "https://github.com/petar-kostadinov/exam-prep-11-25#readme"
+  "homepage": "https://github.com/petar-kostadinov/exam-prep-11-25#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

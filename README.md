@@ -6,4 +6,11 @@
   - [x] Add Start File
   - [x] Add Dev Script
   - [x] Config Debugging
-
+2. Express
+  - [x] Instal Express `npm i express`
+  - [ ] Init Express Server
+  - [ ] Add Public Resources 
+  - [ ] Setup Static Folder 
+  - [ ] Add Body Parser Middleware 
+  - [ ] Setup Routes File 
+  - [ ] Add Home Controller 
