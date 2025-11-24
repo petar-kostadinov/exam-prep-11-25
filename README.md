@@ -5,5 +5,5 @@
   - [x] Change Module System
   - [x] Add Start File
   - [x] Add Dev Script
-  - [ ] Config Debugging
+  - [x] Config Debugging
 

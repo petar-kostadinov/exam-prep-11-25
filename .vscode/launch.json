@@ -1,0 +1,18 @@
+{
+    // Използвайте подсказките, за да видите възможните атрибути.
+    // Посочете, за да видите описания на съществуващите атрибути.
+    // За повече информация посетете: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Watch",
+            "program": "${workspaceFolder}/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "runtimeArgs": ["--watch"]
+        }
+    ]
+}
