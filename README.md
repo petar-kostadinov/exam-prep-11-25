@@ -16,9 +16,9 @@
   - [x] Setup routes file
 3. Handlebars
   - [x] Install handlebars `npm i express-handlebars`
-  - [ ] Config handlebars as view enging
+  - [x] Config handlebars as view enging
+  - [x] Config views file extensions
   - [ ] Change views directory
-  - [ ] Config views file extensions
   - [ ] Add resources to views folder
   - [ ] Add home view
   - [ ] Add layout
