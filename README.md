@@ -9,8 +9,8 @@
 2. Express
   - [x] Install Express `npm i express`
   - [x] Init Express Server
-  - [ ] Add public resources
-  - [ ] Setup static folder
+  - [x] Add public resources
+  - [x] Setup static middleware
   - [ ] Add body parser middleware
   - [ ] Setup routes file
   - [ ] Add home controller
