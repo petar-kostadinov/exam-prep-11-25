@@ -14,6 +14,16 @@
   - [x] Add body parser middleware `app.use(express.urlencoded());`
   - [x] Add home controller
   - [x] Setup routes file
-3.
+3. Handlebars
+  - [x] Install handlebars `npm i express-handlebars`
+  - [ ] Config handlebars as view enging
+  - [ ] Change views directory
+  - [ ] Config views file extensions
+  - [ ] Add resources to views folder
+  - [ ] Add home view
+  - [ ] Add layout
+  - [ ] Add partial directory
+  - [ ] Config handlebars to read mongoose documents
+  
   
 
