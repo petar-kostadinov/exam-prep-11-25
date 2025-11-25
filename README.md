@@ -24,6 +24,12 @@
   - [x] Add layout
   - [x] Add partial folder
   - [x] Config handlebars to read mongoose documents
+4.Database
+  - [x] Install mongoose `npm i mongoose`
+  - [x] Setup db connection
+  - [ ] Setup db connection error handling
+  - [ ] Add basic user model
+  
   
   
 
