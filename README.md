@@ -12,8 +12,8 @@
   - [x] Add public resources
   - [x] Setup static middleware
   - [x] Add body parser middleware `app.use(express.urlencoded());`
-  - [ ] Add home controller
-  - [ ] Setup routes file
+  - [x] Add home controller
+  - [x] Setup routes file
 3.
   
 
