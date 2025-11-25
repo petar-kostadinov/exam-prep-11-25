@@ -2,8 +2,11 @@ import express from 'express';
 import handlebars from 'express-handlebars';
 
 import routes from './routes.js';
+import initDatabase from './config/dbConfig.js';
 
 const app = express();
+
+initDatabase();
 
 app.use(express.static('src/public'));
 

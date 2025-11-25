@@ -27,7 +27,7 @@
 4.Database
   - [x] Install mongoose `npm i mongoose`
   - [x] Setup db connection
-  - [ ] Setup db connection error handling
+  - [x] Setup db connection error handling
   - [ ] Add basic user model
   
   
