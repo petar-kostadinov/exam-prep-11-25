@@ -21,7 +21,7 @@
   - [x] Change views directory
   - [x] Add resources to views folder
   - [x] Add home view
-  - [ ] Add layout
+  - [x] Add layout
   - [ ] Add partial directory
   - [ ] Config handlebars to read mongoose documents
   
