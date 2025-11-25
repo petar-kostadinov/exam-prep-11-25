@@ -23,7 +23,7 @@
   - [x] Add home view
   - [x] Add layout
   - [x] Add partial folder
-  - [ ] Config handlebars to read mongoose documents
+  - [x] Config handlebars to read mongoose documents
   
   
 
