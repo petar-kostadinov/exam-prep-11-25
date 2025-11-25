@@ -11,7 +11,7 @@
   - [x] Init Express Server
   - [x] Add public resources
   - [x] Setup static middleware
-  - [ ] Add body parser middleware
+  - [x] Add body parser middleware `app.use(express.urlencoded());`
   - [ ] Setup routes file
   - [ ] Add home controller
 3.
