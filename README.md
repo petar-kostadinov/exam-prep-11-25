@@ -18,9 +18,9 @@
   - [x] Install handlebars `npm i express-handlebars`
   - [x] Config handlebars as view enging
   - [x] Config views file extensions
-  - [ ] Change views directory
-  - [ ] Add resources to views folder
-  - [ ] Add home view
+  - [x] Change views directory
+  - [x] Add resources to views folder
+  - [x] Add home view
   - [ ] Add layout
   - [ ] Add partial directory
   - [ ] Config handlebars to read mongoose documents

@@ -3,7 +3,7 @@ import { Router } from "express";
 const homeController = Router();
 
 homeController.get('/', (rec, res) => {
-    res.send('It Works | Home Controller')
+    res.render('home', { layout: false });
 });
 
 export default homeController;
