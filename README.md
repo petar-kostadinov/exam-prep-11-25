@@ -30,8 +30,8 @@
   - [x] Setup db connection error handling
   - [x] Add basic user model
 5.Registration
-  - [ ] Install bcrypt `npm i bcrypt`
-  - [ ] Fix navigation links
+  - [x] Install bcrypt `npm i bcrypt`
+  - [x] Fix navigation links
   - [ ] Add register view
   - [ ] Add user controller
   - [ ] Add register page
