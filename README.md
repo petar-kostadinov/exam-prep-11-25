@@ -49,7 +49,7 @@
   - [x] Add login view
   - [x] Add login view
   - [x] Fix login form
-  - [ ] Add login post action
+  - [x] Add login post action
   - [ ] Add login method to user service
   
   
