@@ -42,6 +42,15 @@
   - [x] Check repass
   - [x] Check if user exists
   - [x] Register user
+6.Login
+  - [x] Install jsonwebtoken `npm i jsonwebtoken`
+  - [x] Install cookie parser `npm i cookie-parser`
+  - [ ] Use cookie parser middleware
+  - [ ] Add login view
+  - [ ] Add login view
+  - [ ] Fix login form
+  - [ ] Add login post action
+  - [ ] Add login method to user service
   
   
 
