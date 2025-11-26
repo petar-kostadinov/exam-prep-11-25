@@ -33,8 +33,8 @@
   - [x] Install bcrypt `npm i bcrypt`
   - [x] Fix navigation links
   - [x] Add register view
-  - [ ] Add user controller
-  - [ ] Add register page
+  - [x] Add user controller
+  - [x] Add register page
   - [ ] Modify register form
   
   
