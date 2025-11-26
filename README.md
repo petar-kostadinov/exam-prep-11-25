@@ -39,7 +39,7 @@
   - [x] Create post register action
   - [x] Add user service with register
   - [x] Hash password
-  - [ ] Check repass
+  - [x] Check repass
   - [ ] Check if user exists
   - [ ] Register user
   
