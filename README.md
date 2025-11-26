@@ -56,7 +56,7 @@
   - [x] Add JWT Secret
   - [x] Generate jwt token
   - [x] Atach token to cookie
-  - [ ] Login
+  - [x] Login
   - [ ] Auto login on register
 
   
