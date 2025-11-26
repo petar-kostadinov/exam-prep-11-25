@@ -50,7 +50,14 @@
   - [x] Add login view
   - [x] Fix login form
   - [x] Add login post action
-  - [ ] Add login method to user service
+  - [x] Add login method to user service
+  - [x] Validate user
+  - [ ] Validate password
+  - [ ] Generate jwt token
+  - [ ] Atach token to cookie
+  - [ ] Login
+  - [ ] Auto login on register
+
   
   
 
