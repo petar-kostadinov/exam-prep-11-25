@@ -32,7 +32,7 @@
 5.Registration
   - [x] Install bcrypt `npm i bcrypt`
   - [x] Fix navigation links
-  - [ ] Add register view
+  - [x] Add register view
   - [ ] Add user controller
   - [ ] Add register page
   - [ ] Modify register form
