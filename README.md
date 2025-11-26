@@ -36,6 +36,7 @@
   - [x] Add user controller
   - [x] Add register page
   - [x] Modify register form
+  - [x] Create post register action
   
   
 
