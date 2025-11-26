@@ -52,7 +52,7 @@
   - [x] Add login post action
   - [x] Add login method to user service
   - [x] Validate user
-  - [ ] Validate password
+  - [x] Validate password
   - [ ] Generate jwt token
   - [ ] Atach token to cookie
   - [ ] Login
