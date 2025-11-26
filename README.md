@@ -55,7 +55,7 @@
   - [x] Validate password
   - [x] Add JWT Secret
   - [x] Generate jwt token
-  - [ ] Atach token to cookie
+  - [x] Atach token to cookie
   - [ ] Login
   - [ ] Auto login on register
 

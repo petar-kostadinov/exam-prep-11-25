@@ -20,10 +20,12 @@ userController.get('/login', (req, res) => {
     res.render('user/login');
 });
 
-userController.post('/login', (req, res) => {
-    const loginData = req.body;
+userController.post('/login', async (req, res) => {
+    const { username, password } = req.body;
 
-     userService.login(loginData);
+     const token = await userService.login(username, password);
+
+     res.cookie('auth', token);
 
     res.redirect('/');
 
