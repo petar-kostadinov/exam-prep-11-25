@@ -47,8 +47,8 @@
   - [x] Install cookie parser `npm i cookie-parser`
   - [x] Use cookie parser middleware
   - [x] Add login view
-  - [ ] Add login view
-  - [ ] Fix login form
+  - [x] Add login view
+  - [x] Fix login form
   - [ ] Add login post action
   - [ ] Add login method to user service
   
