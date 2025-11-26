@@ -35,7 +35,7 @@
   - [x] Add register view
   - [x] Add user controller
   - [x] Add register page
-  - [ ] Modify register form
+  - [x] Modify register form
   
   
 
