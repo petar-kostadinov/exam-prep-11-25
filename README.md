@@ -38,7 +38,7 @@
   - [x] Modify register form
   - [x] Create post register action
   - [x] Add user service with register
-  - [ ] Hash password
+  - [x] Hash password
   - [ ] Check repass
   - [ ] Check if user exists
   - [ ] Register user
