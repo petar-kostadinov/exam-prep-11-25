@@ -57,7 +57,9 @@
   - [x] Generate jwt token
   - [x] Atach token to cookie
   - [x] Login
-  - [ ] Auto login on register
+  - [x] Auto login on register
+7.Logout
+  - [ ] Add logout action
 
   
   

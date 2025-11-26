@@ -1,8 +1,8 @@
 import bcrypt from 'bcrypt';
-import jsonwebtoken from 'jsonwebtoken';
 
 import User from "../models/User.js";
-import { JWT_SECRET } from '../config/index.js';
+import { generateToken } from '../utils/userUtils.js';
+
 
 export default {
     async register(userData) {
@@ -17,7 +17,11 @@ export default {
             throw new Error('User already exists!');
         };
 
-        return User.create(userData);
+        const newUser = await User.create(userData);
+
+        const token = generateToken(newUser);
+
+        return token;
     },
     async login(username, password) {
         const user = await User.findOne({ username });
@@ -32,13 +36,8 @@ export default {
             throw new Error('Invalid username or password!');
         }
 
-        const payload = {
-            id: user.id,
-            username,
-        };
-
-        const token = jsonwebtoken.sign(payload, JWT_SECRET, {expiresIn: '2h'});
+        const token = generateToken(user);
 
         return token;
-    }
+    } 
 }
