@@ -45,8 +45,8 @@
 6.Login
   - [x] Install jsonwebtoken `npm i jsonwebtoken`
   - [x] Install cookie parser `npm i cookie-parser`
-  - [ ] Use cookie parser middleware
-  - [ ] Add login view
+  - [x] Use cookie parser middleware
+  - [x] Add login view
   - [ ] Add login view
   - [ ] Fix login form
   - [ ] Add login post action
