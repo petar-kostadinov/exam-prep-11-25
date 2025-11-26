@@ -40,8 +40,8 @@
   - [x] Add user service with register
   - [x] Hash password
   - [x] Check repass
-  - [ ] Check if user exists
-  - [ ] Register user
+  - [x] Check if user exists
+  - [x] Register user
   
   
 

@@ -1,13 +1,18 @@
 import User from "../models/User.js";
 
 export default {
-    register(userData) {
+    async register(userData) {
 
         if (userData.password !== userData.repass) {
             throw new Error('Password Missmatch!');
         };
 
-        
+        const user = await User.findOne({ email: userData.email });
+
+        if (user) {
+            throw new Error('User already exists!');
+        };
+
         return User.create(userData);
     },
 }
