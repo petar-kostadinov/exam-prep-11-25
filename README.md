@@ -53,6 +53,7 @@
   - [x] Add login method to user service
   - [x] Validate user
   - [x] Validate password
+  - [x] Add JWT Secret
   - [ ] Generate jwt token
   - [ ] Atach token to cookie
   - [ ] Login
