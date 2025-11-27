@@ -62,10 +62,12 @@
   - [x] Add logout action
 8.Authentication
   - [x] Auth middleware
+  - [x] Use auth middleware
   - [ ] Check if guest
   - [ ] Verify token
   - [ ] Attach user to request
   - [ ] Attach user data to handlebars context
+  
 
 
   

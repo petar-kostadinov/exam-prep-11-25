@@ -4,6 +4,7 @@ import handlebars from 'express-handlebars';
 import routes from './routes.js';
 import initDatabase from './config/dbConfig.js';
 import cookieParser from 'cookie-parser';
+import { auth } from './middlewares/authMiddlewares.js';
 
 const app = express();
 
@@ -26,6 +27,8 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 
 app.set('views', 'src/views');
+
+app.use(auth);
 
 app.use(routes);
 
