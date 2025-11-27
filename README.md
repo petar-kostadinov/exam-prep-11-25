@@ -64,7 +64,7 @@
   - [x] Auth middleware
   - [x] Use auth middleware
   - [x] Check if guest
-  - [ ] Verify token
+  - [x] Verify token
   - [ ] Attach user to request
   - [ ] Attach user data to handlebars context
   
