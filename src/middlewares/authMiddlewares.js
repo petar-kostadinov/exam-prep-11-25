@@ -12,6 +12,8 @@ export function auth(req, res, next) {
     try {
         const user = jsonwebtoken.verify(token, JWT_SECRET);
 
+        req.user = user;
+        
     } catch (err) {
         res.clearCookie(AUTH_COOKIE_NAME);
 

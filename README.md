@@ -66,7 +66,7 @@
   - [x] Check if guest
   - [x] Verify token
   - [x] Handle invalid token
-  - [ ] Attach user to request
+  - [x] Attach user to request
   - [ ] Attach user data to handlebars context
   
 
