@@ -78,8 +78,8 @@
   - [x] Add error message util
   - [x] Add error handling for register
   - [x] Persist form data in register
-  - [ ] Add error handling for login
-  - [ ] Persist form data in login
+  - [x] Add error handling for login
+  - [x] Persist form data in login
   
 
 

@@ -33,7 +33,7 @@ export default {
         const isValid = await bcrypt.compare(password, user.password);
 
         if (!isValid) {
-            throw new Error('Invalid username or password!');
+            throw new Error('Invalid password!');
         }
 
         const token = generateToken(user);
