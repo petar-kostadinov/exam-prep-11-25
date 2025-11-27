@@ -23,9 +23,11 @@
         </nav>
     </header>
 
+    {{#if error}}
     <div class="error-containers">
-        <p>Error</p>
+        <p>{{error}}</p>
     </div>
+    {{/if}}
 
     <main>
         {{{body}}}

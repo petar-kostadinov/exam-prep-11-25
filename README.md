@@ -74,7 +74,7 @@
   - [x] Add route guards
 10.Error handling
   - [x] Add notification
-  - [ ] Error message in notification
+  - [x] Error message in notification
   - [ ] Add error handling for register
   - [ ] Add error handling for login
   
