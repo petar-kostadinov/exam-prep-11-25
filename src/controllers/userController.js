@@ -1,14 +1,15 @@
 import { Router } from "express";
 import userService from "../services/userService.js";
 import { AUTH_COOKIE_NAME } from "../config/index.js";
+import { isAuth, isGuest } from "../middlewares/authMiddlewares.js";
 
 const userController = Router();
 
-userController.get('/register', (req, res) => {
+userController.get('/register', isGuest, (req, res) => {
     res.render('user/register');
 });
 
-userController.post('/register', async (req, res) => {
+userController.post('/register', isGuest, async (req, res) => {
     const userData = req.body;
 
     const token = await userService.register(userData);
@@ -19,11 +20,11 @@ userController.post('/register', async (req, res) => {
 
 });
 
-userController.get('/login', (req, res) => {
+userController.get('/login', isGuest, (req, res) => {
     res.render('user/login');
 });
 
-userController.post('/login', async (req, res) => {
+userController.post('/login', isGuest, async (req, res) => {
     const { username, password } = req.body;
 
      const token = await userService.login(username, password);
@@ -34,7 +35,7 @@ userController.post('/login', async (req, res) => {
 
 });
 
-userController.get('/logout', (req, res) => {
+userController.get('/logout', isAuth, (req, res) => {
 
     res.clearCookie(AUTH_COOKIE_NAME);
 
