@@ -76,7 +76,7 @@
   - [x] Add notification
   - [x] Error message in notification
   - [x] Add error message util
-  - [ ] Add error handling for register
+  - [x] Add error handling for register
   - [ ] Add error handling for login
   
 
