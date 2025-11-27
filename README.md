@@ -67,7 +67,7 @@
   - [x] Verify token
   - [x] Handle invalid token
   - [x] Attach user to request
-  - [ ] Attach user data to handlebars context
+  - [x] Attach user data to handlebars context
   
 
 
