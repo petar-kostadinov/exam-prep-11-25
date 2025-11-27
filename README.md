@@ -14,6 +14,7 @@
   - [x] Add body parser middleware `app.use(express.urlencoded());`
   - [x] Add home controller
   - [x] Setup routes file
+  - [x] Add error page
 3. Handlebars
   - [x] Install handlebars `npm i express-handlebars`
   - [x] Config handlebars as view enging
