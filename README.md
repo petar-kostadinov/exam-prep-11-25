@@ -75,6 +75,7 @@
 10.Error handling
   - [x] Add notification
   - [x] Error message in notification
+  - [x] Add error message util
   - [ ] Add error handling for register
   - [ ] Add error handling for login
   

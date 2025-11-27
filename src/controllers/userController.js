@@ -2,6 +2,7 @@ import { Router } from "express";
 import userService from "../services/userService.js";
 import { AUTH_COOKIE_NAME } from "../config/index.js";
 import { isAuth, isGuest } from "../middlewares/authMiddlewares.js";
+import { getErrorMessage } from "../utils/errorUtils.js";
 
 const userController = Router();
 
@@ -12,11 +13,16 @@ userController.get('/register', isGuest, (req, res) => {
 userController.post('/register', isGuest, async (req, res) => {
     const userData = req.body;
 
-    const token = await userService.register(userData);
+    try {
+        const token = await userService.register(userData);
 
-    res.cookie(AUTH_COOKIE_NAME, token);
+        res.cookie(AUTH_COOKIE_NAME, token);
 
-    res.redirect('/');
+        res.redirect('/');
+
+    } catch (err) {
+        res.render('user/register', { error: getErrorMessage(err) });
+    }
 
 });
 
@@ -27,9 +33,9 @@ userController.get('/login', isGuest, (req, res) => {
 userController.post('/login', isGuest, async (req, res) => {
     const { username, password } = req.body;
 
-     const token = await userService.login(username, password);
+    const token = await userService.login(username, password);
 
-     res.cookie(AUTH_COOKIE_NAME, token);
+    res.cookie(AUTH_COOKIE_NAME, token);
 
     res.redirect('/');
 
