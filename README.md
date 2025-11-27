@@ -68,6 +68,10 @@
   - [x] Handle invalid token
   - [x] Attach user to request
   - [x] Attach user data to handlebars context
+9.Authorization
+  - [x] Create isAuth middleware
+  - [x] Create isGuest middleware
+  - [ ] Add route guards
   
 
 
