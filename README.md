@@ -59,7 +59,7 @@
   - [x] Login
   - [x] Auto login on register
 7.Logout
-  - [ ] Add logout action
+  - [x] Add logout action
 
   
   
