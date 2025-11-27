@@ -11,7 +11,10 @@ export function auth(req, res, next) {
 
     try {
         const user = jsonwebtoken.verify(token, JWT_SECRET);
+
     } catch (err) {
-        
+        res.clearCookie(AUTH_COOKIE_NAME);
+
+        res.redirect('/users/login');
     }
 }
