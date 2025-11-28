@@ -87,7 +87,7 @@
 12. Bonuses
   - [x] Set page title from view
   - [x] Export helpers to external file
-  - [ ] Temp data
+  - [x] Temp data
     -[x] Install express session `npm install express-ession`
     -[x] Use express session
     -[x] Add temp data middleware
