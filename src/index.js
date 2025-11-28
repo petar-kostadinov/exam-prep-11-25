@@ -8,6 +8,7 @@ import cookieParser from 'cookie-parser';
 import { auth } from './middlewares/authMiddlewares.js';
 import viewHelpers from './views/viewHelpers.js';
 import { SESSION_SECRET } from './config/index.js';
+import { tempData } from './middlewares/tempDataMiddleware.js';
 
 const app = express();
 
@@ -40,6 +41,8 @@ app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
 app.use(auth);
+
+app.use(tempData);
 
 app.use(routes);
 
