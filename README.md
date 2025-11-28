@@ -25,12 +25,12 @@
   - [x] Add layout
   - [x] Add partial folder
   - [x] Config handlebars to read mongoose documents
-4.Database
+4. Database
   - [x] Install mongoose `npm i mongoose`
   - [x] Setup db connection
   - [x] Setup db connection error handling
   - [x] Add basic user model
-5.Registration
+5. Registration
   - [x] Install bcrypt `npm i bcrypt`
   - [x] Fix navigation links
   - [x] Add register view
@@ -43,7 +43,7 @@
   - [x] Check repass
   - [x] Check if user exists
   - [x] Register user
-6.Login
+6. Login
   - [x] Install jsonwebtoken `npm i jsonwebtoken`
   - [x] Install cookie parser `npm i cookie-parser`
   - [x] Use cookie parser middleware
@@ -59,9 +59,9 @@
   - [x] Atach token to cookie
   - [x] Login
   - [x] Auto login on register
-7.Logout
+7. Logout
   - [x] Add logout action
-8.Authentication
+8. Authentication
   - [x] Auth middleware
   - [x] Use auth middleware
   - [x] Check if guest
@@ -69,12 +69,14 @@
   - [x] Handle invalid token
   - [x] Attach user to request
   - [x] Attach user data to handlebars context
-  9.Authorization
+9. Authorization
   - [x] Create isAuth middleware
   - [x] Create isGuest middleware
   - [x] Add route guards
+10. Dynamic content
   - [x] Dynamic navigation
-10.Error handling
+  - [x] Dynamic pagetitle
+11. Error handling
   - [x] Add notification
   - [x] Error message in notification
   - [x] Add error message util
