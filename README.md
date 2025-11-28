@@ -86,6 +86,7 @@
   - [x] Persist form data in login
 12. Bonuses
   - [x] Set page title from view
+  - [x] Export helpers to external file
   
 
 
