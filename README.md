@@ -69,10 +69,11 @@
   - [x] Handle invalid token
   - [x] Attach user to request
   - [x] Attach user data to handlebars context
-9.Authorization
+  9.Authorization
   - [x] Create isAuth middleware
   - [x] Create isGuest middleware
   - [x] Add route guards
+  - [x] Dynamic navigation
 10.Error handling
   - [x] Add notification
   - [x] Error message in notification
