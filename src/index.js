@@ -1,11 +1,13 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
+import expressSession from 'express-session';
 
 import routes from './routes.js';
 import initDatabase from './config/dbConfig.js';
 import cookieParser from 'cookie-parser';
 import { auth } from './middlewares/authMiddlewares.js';
 import viewHelpers from './views/viewHelpers.js';
+import { SESSION_SECRET } from './config/index.js';
 
 const app = express();
 
@@ -14,6 +16,13 @@ initDatabase();
 app.use(express.static('src/public'));
 
 app.use(cookieParser());
+
+app.use(expressSession({
+    secret: SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false, httpOnly: true }
+}));
 
 app.use(express.urlencoded());
 
