@@ -84,6 +84,8 @@
   - [x] Persist form data in register
   - [x] Add error handling for login
   - [x] Persist form data in login
+12. Bonuses
+  - [x] Set page title from view
   
 
 
